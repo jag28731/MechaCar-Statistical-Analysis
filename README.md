@@ -36,11 +36,11 @@ In this challenge, I will help Jeremy and the data analytics team do the followi
   - The metrics to be tested will have to be numerical and have a pool of samples as not all values will be the same. 
    
 - What is the null hypothesis or alternative hypothesis?
-  - MechaCar prototypes' costs are accurate because of all the enhanced features.
-  - MechaCar prototypes' costs are inaccurate because of all the enhanced features.
+  - Null: MechaCar prototypes' costs are accurate because of all the enhanced features.
+  - Alternate: MechaCar prototypes' costs are inaccurate because of all the enhanced features.
    
 - What statistical test would you use to test the hypothesis? And why?
-  - I would use the T-Test 
+  - I would use summary statistics, for the most precise data for cost related inquries.
   
 - What data is needed to run the statistical test?
   - All types of data are required, the more data, the more precise the tests can be to be compared to competitors.  
