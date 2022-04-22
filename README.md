@@ -13,22 +13,35 @@ In this challenge, I will help Jeremy and the data analytics team do the followi
 
 ## Linear Regression to Predict MPG Summary
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+  - Vehicle_weight, spoiler_angle, and AWD provide a non-random amount of variance to the mpg values in the dataset.  
+   
 - Is the slope of the linear model considered to be zero? Why or why not?
+  - The p-value is 5.35e-11, therefore the slope is not equal to zero.
+   
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+  - The R-squared value is 0.7149, therefore approximately 71-72% of the predicitions will be correct using this linear model.  
 
 ![1](https://github.com/jag28731/MechaCar-Statistical-Analysis/blob/main/Resources/Linear%20Regression.PNG)
 
 ## Summary Statistics on Suspension Coils Summary
-- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. The top chart indicates the mean, median, variance, and standard deviation totals. Lot 1 and 2 are similar to the total numbers however lot 3 exceeds in variance and standard deviation.
 ![2](https://github.com/jag28731/MechaCar-Statistical-Analysis/blob/main/Resources/Total%20Summary.PNG)
 ![3](https://github.com/jag28731/MechaCar-Statistical-Analysis/blob/main/Resources/Lot%20Summary.PNG)
 
 ## T-Tests on Suspension Coils Summary
+- The p-value total result was 0.06028, which is above the average level of 0.05. All testing will not have the exact same value. 
 
 ## Study Design: MechaCar vs Competition
 - What metric or metrics are you going to test?
+  - The metrics to be tested will have to be numerical and have a pool of samples as not all values will be the same. 
+   
 - What is the null hypothesis or alternative hypothesis?
+  - MechaCar prototypes' costs are accurate because of all the enhanced features.
+  - MechaCar prototypes' costs are inaccurate because of all the enhanced features.
+   
 - What statistical test would you use to test the hypothesis? And why?
+  - I would use the T-Test 
+  
 - What data is needed to run the statistical test?
+  - All types of data are required, the more data, the more precise the tests can be to be compared to competitors.  
 
